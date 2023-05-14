@@ -22,14 +22,12 @@ const productSchema = mongoose.Schema(
             require:false,
         }
 
-
-
-
     },
     {
         timestamps:true
     }
 )
+
 
 const product = mongoose.model('product', productSchema);
 module.exports = product;
